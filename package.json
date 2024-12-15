@@ -1,5 +1,5 @@
 {
-  "name": "crawly-ai",
+  "name": "@mateosanchezl/crawly-ai",
   "version": "1.0.2",
   "description": "A simple, lightweight AI web scraping tool.",
   "main": "dist/index.ts",
@@ -19,6 +19,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/mateosanchezl/crawly-ai.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "files": [
     "dist/**/*"
